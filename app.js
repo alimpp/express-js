@@ -25,8 +25,8 @@ app.get('/api/user/:id', (req, res) => {
 })
 
 app.post('/api/user/create', [
-   body('email', 'email has error').isEmail(),
    body('name', 'name must be empty').notEmpty(),
+   body('email', 'email has error').isEmail(),
 ], (req, res) => {
    const errors = validationResult(req.body)
    if (!errors.isEmpty()) {
