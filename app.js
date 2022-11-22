@@ -39,11 +39,31 @@ app.post('/api/user/create', [
    })
 })
 
+app.put('/api/user/update/:id', (req, res) => {
+   const user = users.find(u => u.id == req.params.id)
+   if (!user) {
+      return res.status(404).json({
+         data: null,
+         message: "user not found"
+      })
+   } else {
+      res.json(req.body)
+      users = users.map(user => {
+         if (user.id == req.params.id) {
+            return { ...user, ...req.body }
+         }
+         return user;
+      })
+      res.json({
+         data: users,
+         message: "ok",
+      })
+   }
+})
+
 const port = process.env.PORT || 3000
 
 app.listen(port, (err) => {
    if (err) console.log(err);
    console.log(`${port} conection`);
 })
-
-
