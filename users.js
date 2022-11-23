@@ -1,6 +1,7 @@
 module.exports = [
     {
       "id": 1,
+      "country": "usa",
       "name": "Leanne Graham",
       "username": "Bret",
       "email": "Sincere@april.biz",
@@ -24,6 +25,7 @@ module.exports = [
     },
     {
       "id": 2,
+      "country": "usa",
       "name": "Ervin Howell",
       "username": "Antonette",
       "email": "Shanna@melissa.tv",
@@ -47,6 +49,7 @@ module.exports = [
     },
     {
       "id": 3,
+      "country": "brazil",
       "name": "Clementine Bauch",
       "username": "Samantha",
       "email": "Nathan@yesenia.net",
@@ -70,6 +73,7 @@ module.exports = [
     },
     {
       "id": 4,
+      "country": "england",
       "name": "Patricia Lebsack",
       "username": "Karianne",
       "email": "Julianne.OConner@kory.org",
@@ -93,6 +97,7 @@ module.exports = [
     },
     {
       "id": 5,
+      "country": "germany",
       "name": "Chelsey Dietrich",
       "username": "Kamren",
       "email": "Lucio_Hettinger@annie.ca",
@@ -116,6 +121,7 @@ module.exports = [
     },
     {
       "id": 6,
+      "country": "germany",
       "name": "Mrs. Dennis Schulist",
       "username": "Leopoldo_Corkery",
       "email": "Karley_Dach@jasper.info",
@@ -140,6 +146,7 @@ module.exports = [
     {
       "id": 7,
       "name": "Kurtis Weissnat",
+      "country": "germany",
       "username": "Elwyn.Skiles",
       "email": "Telly.Hoeger@billy.biz",
       "address": {
@@ -162,6 +169,7 @@ module.exports = [
     },
     {
       "id": 8,
+      "country": "usa",
       "name": "Nicholas Runolfsdottir V",
       "username": "Maxime_Nienow",
       "email": "Sherwood@rosamond.me",
@@ -185,6 +193,7 @@ module.exports = [
     },
     {
       "id": 9,
+      "country": "canada",
       "name": "Glenna Reichert",
       "username": "Delphine",
       "email": "Chaim_McDermott@dana.io",
@@ -208,6 +217,7 @@ module.exports = [
     },
     {
       "id": 10,
+      "country": "canada",
       "name": "Clementina DuBuque",
       "username": "Moriah.Stanton",
       "email": "Rey.Padberg@karina.biz",
